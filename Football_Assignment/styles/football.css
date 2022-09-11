@@ -1,0 +1,150 @@
+body {
+    align-items: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center; 
+}
+
+.main-ground {
+    width: 1000px;
+    height: 600px;
+    padding: 8px;
+    background: rgb(2, 73, 39);
+    box-shadow:
+    0 0 0 4px blue,
+    0 0 0 8px rgb(70, 241, 70),
+    0 0 0 12px yellow,
+    0 0 0 16px orangered;
+    background: radial-gradient(circle,
+        rgb(74, 192, 76) 0%,
+        rgb(68, 132, 51) 71%,
+        rgb(37, 73, 29) 100%);
+}
+
+.left-ground {
+    border: 2px solid white;
+    position: absolute;
+    height: 597px;
+    width: 498px;
+}
+
+.left-penalty-area {
+    border: 2px solid white;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    margin-top: 150px;
+    margin-left:-2px;
+}
+
+.left-goal-area {
+    border: 2px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    margin-top: 220px;
+    margin-left:-2px;
+}
+
+.left-dot-area {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 80px;
+}
+
+.left-penalty-semi-circle-area {
+    width: 130px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 0 130px 130px 0;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 25px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.left-semi-circle-area {
+    width: 100px;
+    height: 200px;
+    border-radius: 100px 0 0 100px;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 396px;
+    margin-top: 200px;
+}
+
+.semi-circle-inner {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:290px;
+    margin-left: 492px;
+}
+
+.right-ground {
+    border: 2px solid white;
+    position: absolute;
+    height: 597px;
+    width: 498px;
+    margin-left: 500px;
+  }
+
+.right-penalty-area {
+    border: 2px solid white;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    margin-top: 150px;
+    margin-left: 376px;
+}
+
+.right-goal-area {
+    border: 2px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    margin-top: 220px;
+    margin-left: 446px;
+}
+
+.right-dot-area {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 400px;
+}
+
+.right-penalty-semi-circle-area {
+    width: 130px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 130px 0 0 130px;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 339px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.right-semi-circle-area {
+    width: 100px;
+    height: 200px;
+    border-radius: 0 100px 100px 0;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: -2px;
+    margin-top: 200px;
+}
+
