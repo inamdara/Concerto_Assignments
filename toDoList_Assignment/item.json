@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "iname": "Tea making"
+    },
+    {
+      "id": 2,
+      "iname": "Bill payment"
+    },
+    {
+      "id": 3,
+      "iname": "Books shopping"
+    },
+    {
+      "id": 4,
+      "iname": "Watch Movie"
+    },
+    {
+      "id": 5,
+      "iname": "Play cricket"
+    },
+    {
+      "id": 6,
+      "iname": "Take screenshots"
+    }
+  ]
+}
